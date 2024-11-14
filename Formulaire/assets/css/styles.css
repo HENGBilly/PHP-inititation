@@ -1,0 +1,13 @@
+.valide{
+    border: 3px solid;
+    border-color: chartreuse;
+}
+
+.pas-valide {
+    border: 3px solid;
+    border-color: red ;
+}
+
+.invisible {
+    color : red;
+}
