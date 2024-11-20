@@ -11,3 +11,11 @@
 .invisible {
     color : red;
 }
+
+.tvalide{
+    color : chartreuse;
+}
+
+.tpas-valide{
+    color : red;
+}
