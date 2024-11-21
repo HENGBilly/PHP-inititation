@@ -1,0 +1,18 @@
+[
+    {
+        "name": "test",
+        "prenom": "test",
+        "email": "test@test.testt",
+        "password": "azerazer",
+        "message": "test",
+        "age": "Yes"
+    },
+    {
+        "name": "test",
+        "prenom": "test",
+        "email": "test@test.test",
+        "password": "zerzerzerzerze",
+        "message": "test",
+        "age": "Yes"
+    }
+]
