@@ -29,9 +29,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(45deg, #8d8515, #1a9163, #962a77, #21075f);
+    background: linear-gradient(132deg, #ff007f, #ff6347, #ff4500, #ff1493, #ff00ff, #ff8c00, #ffff00, #32cd32, #00ff7f, #00ced1, #1e90ff, #7b68ee, #ff69b4, #ff6347, #ff1493, #9932cc, #ff6347, #ffb6c1, #ff0000, #00bfff);
     background-size: 400% 400%;
-    animation: gradientBG 1s ease infinite;
+    animation: gradientBG 15s ease infinite;
     color: #333;
 }
 
