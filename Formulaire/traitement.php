@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue</title>
+    <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body>
 <?php
 // Définir le fuseau horaire
 date_default_timezone_set('Europe/Paris'); 
@@ -48,16 +57,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $data[] = $newEntry;
 
         // Écriture dans le fichier JSON
-        if (file_put_contents($filePath, json_encode($data, JSON_PRETTY_PRINT))) {
-            echo "<h2>Données enregistrées avec succès.</h2>";
-            echo "<p><strong>Name:</strong> $name</p>";
-            echo "<p><strong>First name:</strong> $prenom</p>";
-            echo "<p><strong>Email:</strong> $email</p>";
-            echo "<p><strong>Message:</strong> $message</p>";
-            echo "<p><strong>I am of age:</strong> $age</p>";
-        } else {
-            echo "<h2>Erreur : Impossible d'enregistrer les données.</h2>";
+            if (file_put_contents($filePath, json_encode($data, JSON_PRETTY_PRINT))) {
+            echo "
+            <div class='container'>
+                <div class='icon'>
+                    <img src='/img/icon.png' alt='Icon'>
+                </div>
+                <div class='welcome-message'>
+                    <h1>Bienvenue $name $prenom !</h1>
+                </div>
+            </div>
+            ";
         }
-    }
+        
+}
 }
 ?>
