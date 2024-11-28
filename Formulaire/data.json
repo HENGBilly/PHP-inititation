@@ -14,5 +14,21 @@
         "password": "zerzerzerzerze",
         "message": "test",
         "age": "Yes"
+    },
+    {
+        "name": "Billy",
+        "prenom": "heng",
+        "email": "billy.hengzert@lycee-jeanrostand.fr",
+        "password": "aaaatrdshsj",
+        "message": "azerazeraze",
+        "age": "Yes"
+    },
+    {
+        "name": "fdqdfef",
+        "prenom": "qdfsdfqs",
+        "email": "feffzeq@zeyzery.ituf",
+        "password": "zeatertaetaertaer",
+        "message": "taertaertaert",
+        "age": "Yes"
     }
 ]

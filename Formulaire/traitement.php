@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $data = [];
     }
 
-    // Vérification si l'email existe déjà
+    // Vérification si l'email existe déjà²
     $emailExists = false;
     foreach ($data as $entry) {
         if ($entry['email'] === $email) {
